@@ -9,7 +9,7 @@ import java.util.*;
 public class scannerDay4 {
 	
    public List<String> returnInputDay4(){
-	   File file = new File("InputsDays\\Day4Input.txt");
+	   File file = new File("AdventOfCode\\InputsDays\\Day4Input.txt");
 	   List<String> list = new LinkedList<String>() ;
 	   try (Scanner sc = new Scanner(file, StandardCharsets.UTF_8))
 	    {

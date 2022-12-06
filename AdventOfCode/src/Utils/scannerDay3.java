@@ -14,7 +14,7 @@ public class scannerDay3 {
 	}
 	
    public List<String> returnInputDay3(){
-	   File file = new File("InputsDays\\Day3Input.txt");
+	   File file = new File("AdventOfCode\\InputsDays\\Day3Input.txt");
 	   List<String> list = new LinkedList<String>() ;
 	   try (Scanner sc = new Scanner(file, StandardCharsets.UTF_8))
 	    {
@@ -29,7 +29,7 @@ public class scannerDay3 {
    }
    
    public List<String> returnInputDay3GroupOfThree(){
-	   File file = new File("InputsDays\\Day3Input.txt");
+	   File file = new File("AdventOfCode\\InputsDays\\Day3Input.txt");
 	   List<String> list = new LinkedList<String>() ;
 	   int groupElfs = 0;
 	   try (Scanner sc = new Scanner(file, StandardCharsets.UTF_8))

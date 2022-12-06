@@ -14,7 +14,7 @@ public class scannerDay1 {
 	}
 	
    public List<String> returnInputDay1(){
-	   File file = new File("InputsDays\\Day1Input.txt");
+	   File file = new File("AdventOfCode\\InputsDays\\Day1Input.txt");
 	   List<String> list = new LinkedList<String>() ;
 	   String next;
 	   try (Scanner sc = new Scanner(file, StandardCharsets.UTF_8))
